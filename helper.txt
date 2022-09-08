@@ -1,0 +1,17 @@
+docker compose up dev-db -d
+
+docker ps
+
+docker logs <hash>
+
+yarn start:dev
+
+npx prisma migrate
+
+npx prisma generate
+
+npx prisma studio - start db on localhost 5555
+
+47:12
+1:04:19
+1:41:27
